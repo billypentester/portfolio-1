@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bilal Ahmad</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div id="loading">
+    <div id="spinner"></div>
+  </div>
+  <div id="magnify">
+    <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+    <div id="img_here"></div>
+  </div>
+  <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+    <table>
+      <tr>
+        <td id="logo">Bilal Ahmad</td>
+        <td id="navigation">
+          <a href="#work">work</a>
+          <a href="#bio">about</a>
+          <a href="">blog</a>
+          <a href="https://wa.me/923324187624?text=hi billy">contact</a>
+        </td>
+      </tr>
+    </table>
+  </header>
+  <table id="top_part">
+    <tr>
+      <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+        <h1>Develop a passion for learning. If you do, you will never cease to grow.
+</h1>
+        <button class="btn_one" onclick="window.location.href='https://github.com/billypentester'">Collaborate</button><br>
+        <table>
+          <tr>
+            <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.facebook.com/billypentester"><i class="fab fa-facebook"></i></a></td>
+            <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://twitter.com/billypentester"><i class="fab fa-twitter"></i></a></td>
+            <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://www.instagram.com/billypentester"><i class="fab fa-instagram"></i></a></td>
+            <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social" href="https://www.linkedin.com/in/billypentester"><i class="fab fa-linkedin"></i></a></td>
+          </tr>
+        </table>
+      </td>
+      <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+    </tr>
+  </table>
+  <br>
+  <div id="work">
+      <br><br><br>
+    <h1>work</h1>
+    <div id="photos">
+	  <img onclick="magnify($(this).attr('src'))" src="snaps/1.jpeg">
+	  <img onclick="magnify($(this).attr('src'))" src="snaps/2.jpeg">
+	  <img onclick="magnify($(this).attr('src'))" src="snaps/3.jpeg">
+      <img onclick="magnify($(this).attr('src'))" src="snaps/4.jpeg">
+      <img onclick="magnify($(this).attr('src'))" src="snaps/5.jpeg">
+      <img onclick="magnify($(this).attr('src'))" src="snaps/6.jpeg">
+      <img onclick="magnify($(this).attr('src'))" src="snaps/7.jpeg">
+      <img onclick="magnify($(this).attr('src'))" src="snaps/8.jpeg">
+      <img onclick="magnify($(this).attr('src'))" src="snaps/9.jpeg">
+      <img onclick="magnify($(this).attr('src'))" src="snaps/10.jpeg">
+	  <img onclick="magnify($(this).attr('src'))" src="snaps/11.jpeg">
+	  <img onclick="magnify($(this).attr('src'))" src="snaps/12.jpg">
+	  <img onclick="magnify($(this).attr('src'))" src="snaps/13.jpeg">
+	  <img onclick="magnify($(this).attr('src'))" src="snaps/14.jpg">
+	  <img onclick="magnify($(this).attr('src'))" src="snaps/15.jpg">
+	  <img onclick="magnify($(this).attr('src'))" src="snaps/16.jpeg">
+	  <img onclick="magnify($(this).attr('src'))" src="snaps/17.jpeg">
+	  <img onclick="magnify($(this).attr('src'))" src="snaps/18.jpg">
+	  <img onclick="magnify($(this).attr('src'))" src="snaps/19.jpg">
+	  <img onclick="magnify($(this).attr('src'))" src="snaps/20.jpg">
+	  <img onclick="magnify($(this).attr('src'))" src="snaps/21.jpg">
+    </div>
+  </div>
+  <div id="bio">
+    <h1>about</h1>
+    <p>
+	  hi, I'm Bilal. I'm 19 years old developer, designer, security expert, researcher and much more. I'm currently a bachelor's student of computer science. I am interested in exploring the fields of Software Engineering, Data Science, and Machine Learning, and I am open to opportunities for the same. I like to collaborate in development projects.
+	</p>
+	<p>
+	  Learning <i> Web Application Penetration testing </i> and <i> Certified Ethical hacking </i>. Experienced <i> Web Developer </i> with a demonstrated history of working in the <i> computer Networking </i> industry. Skilled in <i> Database development, Google cloud, Graphic designing and data analyst </i>. Strong engineering professional with a Bachelor of Computer science focused in <i> Computer Science </i> from <a id="uni" href="http://lahore.comsats.edu.pk/"> COMSATS University Islamabad </a>
+    <p>
+      I don’t like to define myself by the work I’ve done. I define myself by the work I want to do. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself, and do interesting things that matter.
+    </p>
+  </div>
+  <div id="contact">
+    <h1>contact</h1>
+    <table>
+      <tr>
+        <td>
+          <div id="inner_div">
+            <table id="inner_table">
+              <tr>
+                <td><i class="fas fa-phone"></i> &nbsp; +923324187624</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-at"></i> &nbsp; BilalSheikh2500@gmail.com</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-fax"></i> &nbsp; +923324187624</td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-map-marker-alt"></i>
+                  <div id="address">
+                    Gulberg Town Railway colony Raiwind,<br>
+                    Lahore,<br>
+                    Pakistan
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a class="social" href="https://www.facebook.com/billypentester"><i class="fab fa-facebook"></i></a>
+                  <a class="social" href="https://twitter.com/billypentester"><i class="fab fa-twitter"></i></a>
+                  <a class="social" href="https://www.instagram.com/billypentester"><i class="fab fa-instagram"></i></a>
+                  <a class="social" href="https://www.linkedin.com/in/billypentester"><i class="fab fa-linkedin"></i></a>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </td>
+        <td>
+          <form method="post" action="email.php">
+            <input type="text" placeholder="name" name="user" required>
+            <input type="email" placeholder="email" name="email" required><br>
+            <textarea placeholder="your message" name="msg" required rows="5"></textarea><br>
+            <button class="btn_one" type="submit" name="submit">send</button>
+          </form>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div id="footer">
+    made on earth by a human <br> <a href="https://github.com/billypentester">billypentester</a>
+  </div>
+  <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
